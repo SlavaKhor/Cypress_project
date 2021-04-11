@@ -1,6 +1,7 @@
 /// <reference types="Cypress" />
 
-//git test commnet
+//Comment 
+
     it('First test', () => {
         cy.visit('https://next.privat24.ua/deposit/open')
         cy.get('tbody').find('td').eq(7)
